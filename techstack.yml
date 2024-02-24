@@ -1,0 +1,57 @@
+repo_name: cristianospsp/recomendador
+report_id: 3ff0f1f47687cf263990b87296d6874b
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-24T20:56:51+00:00'
+requested_by: cristianospsp
+provider: github
+branch: master
+detected_tools_count: 4
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/cristianospsp/recomendador
+  detection_source: Repo Metadata
+- name: Hadoop
+  description: Open-source software for reliable, scalable, distributed computing
+  website_url: http://hadoop.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1044/elephant_rgb_sq.png
+  detection_source_url: https://github.com/cristianospsp/recomendador/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Cristiano de Oliveira
+  last_updated_on: 2018-02-20 23:26:52.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/cristianospsp/recomendador
+  detection_source: Repo Metadata
+- name: org.apache.hadoop:hadoop-client
+  description: Apache Hadoop Client
+  version: 2.7.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/cristianospsp/recomendador/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Cristiano de Oliveira
+  last_updated_on: 2018-02-20 23:26:52.000000000 Z
